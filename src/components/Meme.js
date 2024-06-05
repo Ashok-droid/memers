@@ -78,7 +78,7 @@ const styles = {
         </button>
     </div>
     <div className = "mx-auto mt-4 relative text-white">
-        <img src={meme.randomImage} className="meme--image" />
+        <img src={meme.randomImage} className="min-w-full" alt = "meme" />
         <h2 style = {styles} className="meme--text top absolute top-0 w-4/5 text-center left-/1/2 transform-translate-x-1/2 mt-4 mx-0 px-4 py-0 font-impact text-2xl uppercase tracking-wide">{meme.topText}</h2>
         <h2 style = {styles} className="meme--text bottom absolute bottom-0 w-4/5 text-center left-/1/2 transform-translate-x-1/2 mt-4 mx-0 px-4 py-0 font-impact text-2xl uppercase tracking-wide">{meme.bottomText}</h2>  
     </div>
